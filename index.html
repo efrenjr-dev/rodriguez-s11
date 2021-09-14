@@ -6,10 +6,10 @@
 		<title>ERJ</title>
 		<!-- bootstrap css -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<!-- fonts -->
+		<!-- google fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Kanit&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
 		<!-- external css -->
 		<link rel="stylesheet" type="text/css" href="./index.css">
 
@@ -40,120 +40,128 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
 			</button>
+			<!-- navbar-collaps -->
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     			<div class="navbar-nav">
       				<a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
 					<a class="nav-link" href="#">About</a>
-					<a class="nav-link" href="#">Services</a>
-					<a class="nav-link" href="#">Location</a>
-					<a class="nav-link" href="#">Food</a>
+					<a class="nav-link" href="#mernProjects">MERN Projects</a>
+					<a class="nav-link" href="#otherProjects">Other Projects</a>
 					<!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
 				</div>
 			</div>
+			<!-- navbar-collapse -->
 		</nav>
 		<!-- end of navbar -->
-		<!-- start of introduction -->
-		<div class="container-fluid text-dark">
-			<div class="text-center p-4">
+		
+		<!-- start of container -->
+		<div class="container-fluid bg-light text-dark my-3 px-5">
+			<!-- start of introduction -->
+			<div class="text-center pb-3">
 				<img src="./images/profile.jpg" class="rounded-circle" style="width: 200px;">
 				<h2 class="my-2">Efren Rodriguez Jr.</h2>
 				<h3 class="my-2">Full-Stack Web Developer</h3>
-			</div>
-			<div>
 				<p class="text-justify">
 					10 years experience in the remittance banking industry located in one of the leading remittance-sending countries. Third-culture invidivual raised in Saudi Arabia. Doesn't speak the language but understands the food.
 				</p>
 			</div>
-		</div>
-		<!-- end of introduction -->
-		<!-- start of cards -->
-		<div class="container-fluid text-center">
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
+			<!-- end of introduction -->
+			<!-- start of cards -->
+<!-- 			<div class="card-deck mx-3">
+				<div class="card">
+					<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
+					<div class="card-body">
+						<h5 class="card-title">Stormtrooper</h5>
+					 	<p class="card-text">As expendable as the adjacent card.</p>
+						<a href="#" class="btn btn-primary">Clone</a>
+					</div>
+				</div>
+				<div class="card"">
+					<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
+					<div class="card-body">
+						<h5 class="card-title">Stormtrooper</h5>
+					 	<p class="card-text">As expendable as the adjacent card.</p>
+						<a href="#" class="btn btn-primary">Clone</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
+					<div class="card-body">
+						<h5 class="card-title">Stormtrooper</h5>
+					 	<p class="card-text">As expendable as the adjacent card.</p>
+						<a href="#" class="btn btn-primary">Clone</a>
+					</div>
+				</div>
+				
+			</div> -->
+			<!-- end of cards -->
+			<!-- start of MERN projects -->
+			<h3 class="text-center mt-5" id="mernProjects">MERN Projects</h3>
+			<div class="row">
+				<div class="col-md-6 order-md-2 py-3">
+					<img src="https://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg" class="img-fluid">
+				</div>
+				<div class="col-md-6 order-md-1 py-3">
+					<h5 class="mt-3">Web API (Ecommerce)</h5>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
+			<div class="row">
+				<div class="col-md-6 py-3">
+					<img src="https://d6vdma9166ldh.cloudfront.net/media/images/1455b5c8-4887-43a8-8214-de77543414c9.jpg" class="img-fluid">
+				</div>
+				<div class="col-md-6 py-3">
+					<h5 class="mt-3">React Frontend (Ecommerce)</h5>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
+			<!-- end of MERN projects -->
+			<h3 class="text-center mt-5" id="otherProjects">Other Projects</h3>
+			<div class="row">
+				<div class="col-md-4 py-3 px-4">
+					<img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="img-fluid">
+					<h5 class="mt-4">HTML</h5>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur.</p>
 				</div>
-			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
+				<div class="col-md-4 py-3 px-4">
+					<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--LTUFkuK5--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://imgur.com/Mj3H69v.png" class="img-fluid">
+					<h5 class="mt-4">Bootstrap</h5>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur.</p>
 				</div>
-			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
+				<div class="col-md-4 py-3 px-4">
+					<img src="https://clever-solution.com/wp-content/uploads/2020/04/5625%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-1-1280x720.png" class="img-fluid">
+					<h5 class="mt-4">Node JS Server</h5>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur.</p>
 				</div>
-			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
-				</div>
-			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
-				</div>
-			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
-				</div>
-			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
-				</div>
-			</div>
-			<div class="card mx-3 my-1" style="width: 13rem; min-height: 150px; display:inline-block;">
-				<img src="https://i.ebayimg.com/images/g/7pUAAOSwcHlg3zB3/s-l1600.jpg" class="card-img-top" alt="clone">
-				<div class="card-body">
-					<h5 class="card-title">Stormtrooper</h5>
-				 	<p class="card-text">As expendable as the adjacent card.</p>
-					<a href="#" class="btn btn-primary">Clone</a>
-				</div>
+
 			</div>
 
-
 		</div>
-		<!-- end of cards -->
+		<!-- end of container -->
 		<!-- javascript/dependencies -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8j
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 	</body>
 </html>
