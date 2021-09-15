@@ -2,3 +2,6 @@
 	font-family: 'Barlow', sans-serif;
 }
 
+div [d-flex] .img-fluid {
+	width: 80px;
+}
