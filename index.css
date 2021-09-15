@@ -2,6 +2,18 @@
 	font-family: 'Barlow', sans-serif;
 }
 
-div [d-flex] .img-fluid {
-	width: 80px;
+#gmap_canvas {
+	height: 50vh;
+	width: 100%;
+	padding-top: 2rem;
+}
+
+footer {
+	font-size : 0.8rem;
+	text-align: center;
+}
+
+.bg-info {
+	background-color: #2C2C54!important;
+
 }
